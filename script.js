@@ -1,7 +1,7 @@
 // user name display
 const loggedkey=localStorage.getItem('loggedkey');
 let welcomemsg=document.getElementById("welcomemsg")
-welcomemsg.innerHTML=`<i class="fa-solid fa-user"></i> Welcome ${loggedkey}`
+welcomemsg.innerHTML=` Welcome ${loggedkey}`
 displayincomeexpense();
 displayexpenseArray()
 displayincomeArray()
